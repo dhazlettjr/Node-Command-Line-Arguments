@@ -4,7 +4,7 @@
 
 let input = process.argv;
 let output; 
-let [a,,...b] = input; 
+let [,,...b] = input; 
 
 
 const total = (a,b)=>{
